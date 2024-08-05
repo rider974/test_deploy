@@ -24,7 +24,7 @@ jobs:
         password: ${{ secrets.VPS_PASSWORD }}
         port: ${{ secrets.VPS_PORT }}
         script: |
-          sudo cd /test_deploy 
+          cd test_deploy 
           sudo git pull origin dev
           sudo docker compose up -d 
     
