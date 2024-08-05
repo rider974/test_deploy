@@ -24,6 +24,7 @@ jobs:
         password: ${{ secrets.VPS_PASSWORD }}
         port: ${{ secrets.VPS_PORT }}
         script: |
-          sudo echo 'hello world'
+          sudo cd /test_deploy 
+          sudo git pull origin dev
     
     
