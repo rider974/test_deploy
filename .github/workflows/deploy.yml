@@ -26,5 +26,6 @@ jobs:
         script: |
           sudo cd /test_deploy 
           sudo git pull origin dev
+          sudo docker compose up -d 
     
     
