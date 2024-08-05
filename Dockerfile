@@ -2,9 +2,9 @@
 FROM postgres:alpine
 
 
-ENV POSTGRES_USER=postgres
-ENV POSTGRES_PASSWORD=password
-ENV POSTGRES_DB=base_test
+ENV POSTGRES_USER=beginners
+ENV POSTGRES_PASSWORD=beginners
+ENV POSTGRES_DB=beginners
 
 
 EXPOSE 5432
